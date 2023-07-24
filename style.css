@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;900&display=swap);
+html {
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: antiquewhite;
+    background-color: #1B252E;
+    font-family: 'Inconsolata', monospace;
+}
+.sessao {
+    margin: auto;
+    padding: 0 15px;
+    max-width: 1200px;
+}
+.sessao p {
+    margin: 0;
+    font-weight: 300;
+}
+.sessao__texto h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+}
+.sessao__item div p {
+    text-align: end;
+}
+.sessao__item div h2 {
+    text-align: end;
+    font-weight: 500;
+}
+.sessao__texto {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sessao__item {
+    gap: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sessao__item div {
+    gap: 0 60px;
+    display: flex;
+}
+.sessao__item div:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.sessao__item div:nth-child(even) p {
+    text-align: left;
+}
+.sessao__item div:nth-child(even) h2 {
+    text-align: left;
+}
+.sessao__item img {
+    border-radius: 5%;
+    box-shadow: 0px 0px 8px 5px #243D53;
+}
+.sessao__item__texto {
+    flex-direction: column;
+}
+.sessao__texto2 {
+    gap: 5px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessao__texto2 img{
+    width: 40px;
+    filter: grayscale(100%) brightness(300%);
+}
+
+@media screen and (max-width: 768px) {
+.sessao {
+    width: 90%;
+}
+.sessao__item {
+    gap: 50px;
+}
+.sessao__item img {
+    width: 45vw;
+}
+}
+
+@media screen and (max-width: 360px) {
+.sessao__item div {
+    align-items: center;
+    flex-direction: column;
+}
+.sessao__item img {
+    width: 80vw;
+    margin-top: 10%;
+}
+.sessao__item div:nth-child(even) {
+    flex-direction: column;
+}
+.sessao__item div:nth-child(even) p,
+.sessao__item div p {
+    text-align: center;
+}
+.sessao__item__texto {
+    text-align: center;
+}
+}
