@@ -1,6 +1,6 @@
 # Sessão Alternada
 
-Criar uma sessão em que os itens pares e ímpares sejam diferentes utilizando no CSS o nth-child();
+Criar uma sessão em que os itens pares e ímpares estejam em lados diferentes utilizando no CSS o nth-child();
 
 [Desktop - Sessão Alternada.webm](https://github.com/BiancaBarcelos/sessao-alternada/assets/136381822/06daa756-2902-4e6c-9e69-2ea22064c12a)
 
